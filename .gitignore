@@ -1,0 +1,14 @@
+###############
+#    Files    #
+###############
+erl_crash.dump
+mix.lock
+*.ez
+
+###############
+# Directories #
+###############
+**/_build
+**/cover
+**/deps
+**/doc
