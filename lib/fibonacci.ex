@@ -1,18 +1,32 @@
 defmodule Fibonacci do
   @moduledoc """
-  Documentation for Fibonacci.
+    Provides methods for handling fibonacci numbers.
   """
 
   @doc """
-  Hello world.
+    Provides the fibonacci sequence as an array.
+    The `n` argument indicates the length of the array.
 
   ## Examples
 
-      iex> Fibonacci.hello
-      :world
+      iex> Fibonacci.get_n_fibs(5)
+      [1, 1, 2, 3, 5]
 
   """
-  def hello do
-    :world
+  def get_n_fibs(n) do
+    n
+  end
+
+  @doc """
+    Provides the next fibonacci number in the sequence.
+    The `fibs` argument is the fibonacci sequence as an array.
+
+  ## Examples
+
+      iex> Fibonacci.next_fib([1, 1, 2])
+      [3]
+  """
+  def next_fib(fibs) do
+    fibs
   end
 end
