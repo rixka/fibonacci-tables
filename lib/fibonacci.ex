@@ -14,7 +14,7 @@ defmodule Fibonacci do
   @doc """
     Recursively loops to generate the desired fibonacci
     sequence length.
-    The 'fibs` argument is the existing fibonacci sequence
+    The `fibs` argument is the existing fibonacci sequence
     and the `n` argument is the desired length of the array.
 
   ## Examples
@@ -42,6 +42,7 @@ defmodule Fibonacci do
 
       iex> Fibonacci.add_next_fib([1, 1, 2])
       [1, 1, 2, 3]
+
   """
   def add_next_fib(fibs) do
     cond do
