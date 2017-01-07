@@ -4,8 +4,8 @@ defmodule Fibonacci do
   """
 
   @doc """
-    Provides the fibonacci sequence as an array.
-    The `n` argument indicates the length of the array.
+    Provides the fibonacci sequence as an list.
+    The `n` argument indicates the length of the list.
   """
   def get_n_fibs(n) do
     fib_loop([1], n)
@@ -15,7 +15,7 @@ defmodule Fibonacci do
     Recursively loops to generate the desired fibonacci
     sequence length.
     The `fibs` argument is the existing fibonacci sequence
-    and the `n` argument is the desired length of the array.
+    and the `n` argument is the desired length of the list.
 
   ## Examples
 
@@ -36,7 +36,7 @@ defmodule Fibonacci do
 
   @doc """
     Appends the next fibonacci number to the sequence.
-    The `fibs` argument is the old fibonacci sequence as an array.
+    The `fibs` argument is the old fibonacci sequence as an list.
 
   ## Examples
 
