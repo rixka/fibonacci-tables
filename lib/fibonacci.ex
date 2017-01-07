@@ -27,6 +27,12 @@ defmodule Fibonacci do
       [3]
   """
   def next_fib(fibs) do
-    fibs
+    cond do
+      length(fibs) == 1 ->
+        [1]
+      true ->
+        [pen, last] = Enum.take(fibs, -2)
+        [pen + last]
+    end
   end
 end
