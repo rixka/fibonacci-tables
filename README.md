@@ -20,7 +20,7 @@ Installation instructions.
 `mix deps.get`
 
 ## Docs
-Instructions to generate and access docs. _(link not available as this is an exercise_
+Instructions to generate and access docs. _(link not available as this is an exercise)_
 
 ```
 mix docs
