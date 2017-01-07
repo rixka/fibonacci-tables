@@ -3,6 +3,13 @@ defmodule Fibonacci do
     Provides methods for handling fibonacci numbers.
   """
 
+  def main do
+    InputHandler.prompt_user
+    |> InputHandler.validate_input
+    |> get_n_fibs
+    |> Table.format
+  end
+
   @doc """
     Provides the fibonacci sequence as an list.
     The `n` argument indicates the length of the list.
